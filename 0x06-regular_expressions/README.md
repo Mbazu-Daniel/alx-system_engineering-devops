@@ -1,2 +1,1 @@
-# 0x06. Regular expression
-Project of Ruby, about Regex.
+This is an introductory project into regular expressions using Oniguruma
