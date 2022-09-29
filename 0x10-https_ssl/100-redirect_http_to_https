@@ -50,8 +50,8 @@ frontend www-https
 backend web-backend
         balance roundrobin
         redirect scheme https code 301 if !{ ssl_fc }
-        server 7507-web-01 44.192.114.64 check
-        server 7507-web-02 3.238.106.148 check
+        server 7507-web-01 44.192.114.64 pending
+        server 7507-web-02 3.238.106.148 pending
 
 backend letsencrypt-backend
         server letsencrypt 127.0.0.1:54321
